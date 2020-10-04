@@ -308,11 +308,35 @@
             <p class="discription">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac luctus torquent</p>
           </div>
           <div class="content-section-img text-center  bg-white py-5">
-            <img src="img/testimonial1 (1).png" class="img-fluid bg-images">
-            <h3>Htephen Mcmilan</h3>
-            <p>Execitive ACI Group</p>
-            <p>Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
+            <div class="owl-carousel owl-theme" id="first-slider">                                                        
+               <div class="item">
+                  <div class="items-wrapper">
+                    <img src="img/testimonial1 (1).png" class="img-fluid bg-images">
+                    <h3>Htephen Mcmilan</h3>
+                    <p>Execitive ACI Group</p>
+                    <p>Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
+                  </div>           
+              </div>
+             div class="item">
+                  <div class="items-wrapper">
+                    <img src="img/testimonial1 (1).png" class="img-fluid bg-images">
+                    <h3>Htephen Mcmilan</h3>
+                    <p>Execitive ACI Group</p>
+                    <p>Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
+                  </div>           
+              </div> 
+              div class="item">
+                  <div class="items-wrapper">
+                    <img src="img/testimonial1 (1).png" class="img-fluid bg-images">
+                    <h3>Htephen Mcmilan</h3>
+                    <p>Execitive ACI Group</p>
+                    <p>Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had also made from. Give may saying meat there from heaven</p>
+                  </div>           
+              </div> 
+            </div>
+                                
           </div>
+                                                                             
       </div>
     </div>
   </div>
@@ -439,6 +463,29 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
      <script src="js/owl.carousel.js"></script>
+     <script>
+       $(document).ready(function(){
+           $('#first-slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+       });
+     </script>
      <script>
        $(document).ready(function(){
            $('.owl-carousel').owlCarousel({
